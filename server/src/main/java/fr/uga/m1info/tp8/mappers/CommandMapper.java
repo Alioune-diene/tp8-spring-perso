@@ -25,6 +25,7 @@ public interface CommandMapper {
     @Mapping(target = "orderedProducts",source = "orderedProductEntities")
     Command toCommand(CommandEntity commandEntity);
 
+    @Mapping(target = "nameProduct", source = "productEntity.name")
     OrderedProduct toOrderedProduct(OrderedProductEntity orderedProductEntity);
 
     OrderedProductResponse toResponse(OrderedProduct orderedProduct);

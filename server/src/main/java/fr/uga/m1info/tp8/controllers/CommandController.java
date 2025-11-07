@@ -15,5 +15,19 @@ import org.springframework.web.bind.annotation.RestController;
 public class CommandController implements CommandEndpoints {
     private final CommandService commandService;
     private final CommandMapper commandMapper;
-    // TO DO
+
+    @Override
+    public CommandResponse createCommand(CommandCreationRequest request) {
+        return commandMapper.toResponse(commandService.createCommand(request));
+    }
+
+    @Override
+    public CommandResponse addProducts(Long idCommand, CommandAddProductRequest request) {
+        return commandMapper.toResponse(commandService.addProducts(idCommand, request));
+    }
+
+    @Override
+    public CommandResponse deleteProducts(Long idCommand, CommandRemoveProductsRequest request) {
+        return commandMapper.toResponse(commandService.removeProducts(idCommand, request));
+    }
 }

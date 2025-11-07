@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@lombok.Getter
+@lombok.Setter
 public class ProductEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
