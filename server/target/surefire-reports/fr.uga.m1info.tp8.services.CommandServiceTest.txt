@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: fr.uga.m1info.tp8.services.CommandServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 1, Time elapsed: 5.491 s <<< FAILURE! -- in fr.uga.m1info.tp8.services.CommandServiceTest
+fr.uga.m1info.tp8.services.CommandServiceTest.createCommand_productNotExist -- Time elapsed: 0.078 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected fr.uga.m1info.tp8.exceptions.rest.ProductNotFoundRestException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at fr.uga.m1info.tp8.services.CommandServiceTest.createCommand_productNotExist(CommandServiceTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.services.CommandServiceTest.removeProducts_commandNotFound -- Time elapsed: 0.051 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected fr.uga.m1info.tp8.exceptions.rest.CommandNotFoundRestException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at fr.uga.m1info.tp8.services.CommandServiceTest.removeProducts_commandNotFound(CommandServiceTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.services.CommandServiceTest.addProducts_commandNotFound -- Time elapsed: 0.059 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected fr.uga.m1info.tp8.exceptions.rest.CommandNotFoundRestException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at fr.uga.m1info.tp8.services.CommandServiceTest.addProducts_commandNotFound(CommandServiceTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.services.CommandServiceTest.addProducts_productNotExist -- Time elapsed: 0.063 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected fr.uga.m1info.tp8.exceptions.rest.ProductNotFoundRestException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at fr.uga.m1info.tp8.services.CommandServiceTest.addProducts_productNotExist(CommandServiceTest.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.services.CommandServiceTest.createCommand_emptyRequets -- Time elapsed: 0.056 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected fr.uga.m1info.tp8.exceptions.rest.EmptyCommandRestException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at fr.uga.m1info.tp8.services.CommandServiceTest.createCommand_emptyRequets(CommandServiceTest.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

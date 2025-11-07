@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: fr.uga.m1info.tp8.controllers.ClientControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.159 s <<< FAILURE! -- in fr.uga.m1info.tp8.controllers.ClientControllerTest
+fr.uga.m1info.tp8.controllers.ClientControllerTest.creation_client_201 -- Time elapsed: 0.191 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 201 CREATED
+ but was: 500 INTERNAL_SERVER_ERROR
+	at fr.uga.m1info.tp8.controllers.ClientControllerTest.creation_client_201(ClientControllerTest.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.controllers.ClientControllerTest.creation_client_400 -- Time elapsed: 0.102 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 400 BAD_REQUEST
+ but was: 500 INTERNAL_SERVER_ERROR
+	at fr.uga.m1info.tp8.controllers.ClientControllerTest.creation_client_400(ClientControllerTest.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

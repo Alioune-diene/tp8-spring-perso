@@ -1,0 +1,12 @@
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/endpoints/ClientEndpoints.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/endpoints/CommandEndpoints.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/errors/ErrorResponse.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/errors/ErrorType.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/requests/ClientCreationRequest.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/requests/CommandAddProductRequest.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/requests/CommandCreationRequest.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/requests/CommandRemoveProductsRequest.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/requests/ProductRequest.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/responses/ClientResponse.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/responses/CommandResponse.java
+/home/alioune/M1/DB/tp8-spring/rest-api/src/main/java/fr/uga/m1info/tp8/responses/OrderedProductResponse.java

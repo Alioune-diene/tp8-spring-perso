@@ -1,0 +1,7 @@
+/home/alioune/M1/DB/tp8-spring/server/src/test/java/fr/uga/m1info/tp8/controllers/ClientControllerTest.java
+/home/alioune/M1/DB/tp8-spring/server/src/test/java/fr/uga/m1info/tp8/controllers/CommandControllerTest.java
+/home/alioune/M1/DB/tp8-spring/server/src/test/java/fr/uga/m1info/tp8/endpoints/ClientEndpointsTest.java
+/home/alioune/M1/DB/tp8-spring/server/src/test/java/fr/uga/m1info/tp8/endpoints/CommandEndpointsTest.java
+/home/alioune/M1/DB/tp8-spring/server/src/test/java/fr/uga/m1info/tp8/services/ClientServiceTest.java
+/home/alioune/M1/DB/tp8-spring/server/src/test/java/fr/uga/m1info/tp8/services/CommandServiceTest.java
+/home/alioune/M1/DB/tp8-spring/server/src/test/java/fr/uga/m1info/tp8/utils/TestUtils.java

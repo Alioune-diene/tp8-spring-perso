@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.uga.m1info.tp8.endpoints.ClientEndpointsTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s -- in fr.uga.m1info.tp8.endpoints.ClientEndpointsTest

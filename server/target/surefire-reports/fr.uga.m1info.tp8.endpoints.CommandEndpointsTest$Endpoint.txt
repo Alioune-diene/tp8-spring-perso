@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! -- in fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint
+fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint.addProducts -- Time elapsed: 0.020 s <<< FAILURE!
+java.lang.AssertionError: 
+[La méthod addProducts devrait être définie dans la class CommandEndpoints] 
+Expecting actual not to be empty
+	at fr.uga.m1info.tp8.utils.TestUtils.verifyMethodIsDeclared(TestUtils.java:70)
+	at fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint.addProducts(CommandEndpointsTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint.createCommand -- Time elapsed: 0.005 s <<< FAILURE!
+java.lang.AssertionError: 
+[La méthod createCommand devrait être définie dans la class CommandEndpoints] 
+Expecting actual not to be empty
+	at fr.uga.m1info.tp8.utils.TestUtils.verifyMethodIsDeclared(TestUtils.java:70)
+	at fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint.createCommand(CommandEndpointsTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint.deleteProducts -- Time elapsed: 0.005 s <<< FAILURE!
+java.lang.AssertionError: 
+[La méthod deleteProducts devrait être définie dans la class CommandEndpoints] 
+Expecting actual not to be empty
+	at fr.uga.m1info.tp8.utils.TestUtils.verifyMethodIsDeclared(TestUtils.java:70)
+	at fr.uga.m1info.tp8.endpoints.CommandEndpointsTest$Endpoint.deleteProducts(CommandEndpointsTest.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

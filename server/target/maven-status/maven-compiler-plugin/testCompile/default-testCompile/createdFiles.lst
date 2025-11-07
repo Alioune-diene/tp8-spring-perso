@@ -1,0 +1,10 @@
+fr/uga/m1info/tp8/utils/TestUtils.class
+fr/uga/m1info/tp8/endpoints/CommandEndpointsTest.class
+fr/uga/m1info/tp8/controllers/ClientControllerTest.class
+fr/uga/m1info/tp8/controllers/ClientControllerTest$2.class
+fr/uga/m1info/tp8/controllers/CommandControllerTest.class
+fr/uga/m1info/tp8/services/CommandServiceTest.class
+fr/uga/m1info/tp8/endpoints/ClientEndpointsTest$Endpoint.class
+fr/uga/m1info/tp8/endpoints/ClientEndpointsTest.class
+fr/uga/m1info/tp8/endpoints/CommandEndpointsTest$Endpoint.class
+fr/uga/m1info/tp8/controllers/ClientControllerTest$1.class

@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: fr.uga.m1info.tp8.controllers.CommandControllerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 1, Time elapsed: 27.78 s <<< FAILURE! -- in fr.uga.m1info.tp8.controllers.CommandControllerTest
+fr.uga.m1info.tp8.controllers.CommandControllerTest.create_command -- Time elapsed: 0.271 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 201 CREATED
+ but was: 404 NOT_FOUND
+	at fr.uga.m1info.tp8.controllers.CommandControllerTest.create_command(CommandControllerTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.controllers.CommandControllerTest.create_command_without_product -- Time elapsed: 0.109 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 400 BAD_REQUEST
+ but was: 404 NOT_FOUND
+	at fr.uga.m1info.tp8.controllers.CommandControllerTest.create_command_without_product(CommandControllerTest.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.controllers.CommandControllerTest.remove_product -- Time elapsed: 0.228 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 200 OK
+ but was: 404 NOT_FOUND
+	at fr.uga.m1info.tp8.controllers.CommandControllerTest.remove_product(CommandControllerTest.java:216)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.controllers.CommandControllerTest.add_product -- Time elapsed: 0.164 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 200 OK
+ but was: 404 NOT_FOUND
+	at fr.uga.m1info.tp8.controllers.CommandControllerTest.add_product(CommandControllerTest.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.uga.m1info.tp8.controllers.CommandControllerTest.remove_product_command_without_product -- Time elapsed: 0.185 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 400 BAD_REQUEST
+ but was: 404 NOT_FOUND
+	at fr.uga.m1info.tp8.controllers.CommandControllerTest.remove_product_command_without_product(CommandControllerTest.java:292)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

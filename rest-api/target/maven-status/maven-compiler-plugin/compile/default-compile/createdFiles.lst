@@ -1,0 +1,14 @@
+fr/uga/m1info/tp8/responses/CommandResponse.class
+fr/uga/m1info/tp8/endpoints/CommandEndpoints.class
+fr/uga/m1info/tp8/errors/ErrorType.class
+fr/uga/m1info/tp8/requests/ClientCreationRequest.class
+fr/uga/m1info/tp8/responses/OrderedProductResponse.class
+fr/uga/m1info/tp8/errors/ErrorResponse.class
+fr/uga/m1info/tp8/requests/ProductRequest.class
+fr/uga/m1info/tp8/responses/CommandResponse$CommandResponseBuilder.class
+fr/uga/m1info/tp8/requests/CommandAddProductRequest.class
+fr/uga/m1info/tp8/endpoints/ClientEndpoints.class
+fr/uga/m1info/tp8/errors/ErrorResponse$ErrorResponseBuilder.class
+fr/uga/m1info/tp8/requests/CommandCreationRequest.class
+fr/uga/m1info/tp8/responses/ClientResponse.class
+fr/uga/m1info/tp8/requests/CommandRemoveProductsRequest.class
