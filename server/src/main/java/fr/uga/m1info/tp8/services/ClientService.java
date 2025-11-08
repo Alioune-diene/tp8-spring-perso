@@ -3,7 +3,6 @@ package fr.uga.m1info.tp8.services;
 import fr.uga.m1info.tp8.components.ClientComponent;
 import fr.uga.m1info.tp8.domain.models.Client;
 import fr.uga.m1info.tp8.domain.models.Command;
-// import fr.uga.m1info.tp8.exceptions.rest.BadRequestRestException;
 import fr.uga.m1info.tp8.exceptions.rest.ClientNotFoundRestException;
 import fr.uga.m1info.tp8.exceptions.rest.EmailInvalidFormatRestException;
 import fr.uga.m1info.tp8.exceptions.technical.ClientEntityNotFoundException;
@@ -11,7 +10,6 @@ import fr.uga.m1info.tp8.mappers.ClientMapper;
 import fr.uga.m1info.tp8.models.ClientEntity;
 import fr.uga.m1info.tp8.repositories.ClientEntityRepository;
 import fr.uga.m1info.tp8.requests.ClientCreationRequest;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +23,7 @@ public class ClientService {
     private final ClientMapper clientMapper;
     private final ClientComponent clientComponent;
 
-    public Client createClient(@RequestBody ClientCreationRequest request){
+    public Client createClient(ClientCreationRequest request){
         String emailRegex = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
         Pattern pattern = Pattern.compile(emailRegex);
 

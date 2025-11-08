@@ -1,6 +1,7 @@
 package fr.uga.m1info.tp8.controllers;
 
 import fr.uga.m1info.tp8.endpoints.ClientEndpoints;
+import fr.uga.m1info.tp8.mappers.ClientMapper;
 import fr.uga.m1info.tp8.mappers.CommandMapper;
 import fr.uga.m1info.tp8.requests.ClientCreationRequest;
 import fr.uga.m1info.tp8.responses.ClientResponse;
@@ -16,6 +17,7 @@ import java.util.Set;
 public class ClientController implements ClientEndpoints {
     private final ClientService clientService;
     private final CommandMapper commandMapper;
+    private final ClientMapper clientMapper;
 
     @Override
     public Set<CommandResponse> getAllCommand(Long idClient) {
@@ -24,13 +26,6 @@ public class ClientController implements ClientEndpoints {
 
     @Override
     public ClientResponse createClient(ClientCreationRequest request) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'createClient'");
+        return clientMapper.toResponse(clientService.createClient(request));
     }
-/*
-   @Override
-   public ClientResponse createClient(ClientCreationRequest request) {
-       return null;
-   }
-*/
 }
